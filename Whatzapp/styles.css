@@ -1,0 +1,137 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.contac-list {
+  padding: 0.5px;
+  background: #DBDBDB;
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.n-contactos {
+
+  padding: 0px;
+  background: #FFFFFF;
+  text-align: justify;
+
+}
+
+.chat-user {
+
+  padding: 0.5px;
+  background: #DBDBDB;
+  line-height: 42px;
+  height: 157px;
+
+
+}
+
+.chat-total {
+
+  text-align: justify;
+
+}
+
+.body {
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.contactos {
+
+  border: 1px solid #8C8C8C;
+  left: 0px;
+  top: 0px;
+  display: grid;
+}
+
+.chat {
+
+  left: 207px;
+  top: 0px;
+  display: grid;
+}
+
+
+
+.caja {
+
+  height: 65px;
+  border: 1px solid #DBDBDB;
+
+
+}
+
+.caja1 {
+
+  height: 25px;
+  border: 1px solid #DBDBDB;
+  text-align: left;
+
+
+}
+
+.caja:hover {
+  cursor: pointer;
+  background: #F2F2F2;
+}
+
+.caja1:hover {
+
+  cursor: pointer;
+  background: #F2F2F2;
+}
+
+
+.chat-msj {
+  height: 362px;
+  background: #F2F2F2;
+  text-align: center;
+}
+
+.chat-lec {
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 25px;
+  height: 35px;
+  width: 635px;
+  position: absolute;
+  bottom: 460px;
+  left: 310px;
+}
+
+.img-cont {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  grid-column: 50px;
+
+}
+
+.tc-user {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.lc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}

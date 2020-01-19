@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+::placeholder{
+  color: #5AD2AE;
+  opacity: 1;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.caja-login {
+
+background: #F2FCFF;
+border: 2px solid #C3F1FF;
+box-sizing: border-box;
+border-radius: 30px;
+text-align: center;
+width: 350px;
+height: 275px;
+
+}
+
+.caja-login h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 30px;
+
+color: #5AD2AE;
+}
+
+.formulario-login {
+  grid-row-gap: 10px;
+
+background: #F2FCFF;
+box-sizing: border-box;
+border-radius: 30px;
+
+
+
+}
+.formulario-login input[type="text"],input[type="Password"]{
+  
+  background: #FFFFFF;
+  display: block;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 1px solid #C3F1FF;
+  border-radius: 24px;
+  width: 250px;
+  height: 45px;
+
+}
+
+
+
+.formulario-login button{
+  background: #5AD2AE;
+border: 1px solid #469F85;
+box-sizing: border-box;
+border-radius: 39.5px;
+  height: 34px;
+  color: #FFFFFF;
+  width: 250px;
+}
+
+/* Efecto al pasar encima el mouse */
+.formulario-login button:hover {
+  cursor: pointer;
+  background: #469F85;
+}
+
+.formulario-login-small {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  font-style: normal;
+font-weight: normal;
+}
+.error{
+  font-family: Roboto;
+  text-align: center;
+display: grid;
+color: #FF0000;
+}
+.hide{
+  display: none;
+}

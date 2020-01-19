@@ -1,0 +1,60 @@
+body {
+    margin: unset;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+header {
+    background: #333333;
+    text-align: center;
+    height: 70px;
+    display: grid;
+}
+
+h1 {
+    color: #ffffff;
+
+}
+
+.menu {
+    background: #C3F1FF;
+}
+
+.menu button {
+    background: #C3F1FF;
+    border: 1px solid #77DFFF;
+    height: 61px;
+    color: black;
+    width: 404px;
+    font-size: 40px;
+}
+
+.menu button:hover {
+
+    cursor: pointer;
+    background: #77DFFF;
+    ;
+}
+
+article {
+    width: 250px;
+}
+
+.princi {
+    text-align: center;
+    overflow: hidden;
+}
+
+.font-prin {
+    font-size: larger;
+    text-align: center;
+}
+
+.inframe {
+    width: 1000px;
+    height: 1000px;
+
+}
